@@ -1,1 +1,111 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Cores background
+$background-default: #e1dede9f;
+$background-fundo: #d5dddf;
+$background-bk-mensagem: #0E2043;
+$background-bk-photo: #DAE2F5;
+
+// Utilitários
+.hr {
+    width: 100%;
+    height: 0px;
+}
+
+.background-color-default {
+    background-color: $background-default;
+}
+.fundo {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 440px;
+    margin-top: 8%;
+    background-color: $background-fundo;
+}
+.fundo .bk-mensagem {
+    width: 58%;
+    height: 440px;
+    background-color: $background-bk-mensagem;
+}
+.bk-mensagem .dv-body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+    // background-color: rgba(255, 0, 0, 0.329);
+}
+.bk-mensagem .dv-body .dv-text-01 {
+    width: 100%;
+}
+.bk-mensagem .dv-body .dv-text-01 .titulo-1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    // font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+    font-family: 'Righteous', cursive;
+    color: #6F7B8F;
+}
+.bk-mensagem .dv-body .dv-text-01 .titulo-2 {
+    font-size: 42px;
+    margin-bottom: 8px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    font-family: 'Righteous', cursive;
+    // font-family: 'Roboto', sans-serif;
+    // font-weight: bold;
+    color: #FFFFFF;
+}
+.bk-mensagem .dv-body .dv-text-01 .titulo-3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    // font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 218, 223);
+    text-align: start;
+}
+.bk-mensagem .dv-body .dv-button-body {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.bk-mensagem .dv-body .dv-button-body .dv-button {
+    margin: auto;
+}
+.dv-button-body .style-button {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    background-color: rgb(255, 155, 4);
+}
+
+.fundo .bk-photo {
+    width: 42%;
+    height: 440px;
+    background-color: $background-bk-photo;
+}
+
+.bk-photo .dv-body-02 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 20%;
+    // background-color: rgba(255, 0, 0, 0.329);
+}
+.bk-photo .dv-body-02 .dv-img-01 {
+    display: flex;
+    width: 100%;
+}
+.bk-photo .dv-body-02 .dv-img-01 .icon {
+    width: 200px;
+    justify-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
